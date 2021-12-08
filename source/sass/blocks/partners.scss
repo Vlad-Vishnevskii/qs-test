@@ -1,0 +1,187 @@
+.partners {
+  padding-top: 39px;
+  padding-bottom: 100px;
+
+  @include viewport--md {
+    padding-top: 45px;
+  }
+}
+
+.partners__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 160%;
+  text-transform: uppercase;
+  color: #121920;
+
+  @include viewport--md {
+    font-size: 28px;
+    margin-bottom: 32px;
+  }
+}
+
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  margin-left: -30px;
+  margin-top: -30px;
+
+  @media (max-width: 1300px) {
+    margin-left: -2%;
+  }
+
+  @include viewport--md {
+    margin-top: -20px;
+    margin-left: -2.7%;
+  }
+
+  @include viewport--sm {
+    margin-left: 0;
+  }
+}
+
+.partners__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  margin-left: 30px;
+  margin-top: 30px;
+  padding: 28px 18px;
+  min-height: 120px;
+  border: 1px solid $color-grey;
+  border-radius: 5px;
+
+  @media (max-width: 1300px) {
+    width: 23%;
+    margin-left: 2%;
+  }
+
+  @include viewport--md {
+    width: 30.6%;
+    margin-top: 20px;
+    margin-left: 2.7%;
+    padding: 16px;
+  }
+
+  @include viewport--sm {
+    width: 100%;
+    margin-left: 0;
+    padding: 25px;
+    min-height: 140px;
+  }
+
+  img {
+    width: 234px;
+    height: 64px;
+    object-fit: contain;
+  }
+}
+
+.partners__item--mcdonalds  img {
+  width: 85px;
+  height: 64px;
+
+  @include viewport--md {
+    width: 99px;
+    height: 74px;
+  }
+
+  @include viewport--sm {
+    width: 100px;
+    height: 75px;
+  }
+}
+
+.partners__item--ikea img {
+  width: 160px;
+  height: 64px;
+
+  @include viewport--md {
+    width: 175px;
+    height: 70px;
+  }
+
+  @include viewport--sm {
+    width: 194px;
+    height: 78px;
+  }
+}
+
+.partners__item--reebok img {
+  width: 234px;
+  height: 64px;
+
+  @include viewport--md {
+    width: 187px;
+    height: 38px;
+  }
+
+  @include viewport--sm {
+    width: 232px;
+    height: 48px;
+  }
+}
+
+.partners__item--nike img {
+  width: 234px;
+  height: 64px;
+
+  @include viewport--md {
+    width: 143px;
+    height: 74px;
+  }
+
+  @include viewport--sm {
+    width: 141px;
+    height: 74px;
+  }
+}
+
+.partners__item--deere img {
+  width: 234px;
+  height: 44px;
+
+  @include viewport--md {
+    width: 183px;
+    height: 34px;
+  }
+
+  @include viewport--sm {
+    width: 234px;
+    height: 44px;
+  }
+}
+
+.partners__item--henkel img {
+  width: 234px;
+  height: 64px;
+
+  @include viewport--md {
+    width: 117px;
+    height: 64px;
+  }
+
+  @include viewport--sm {
+    width: 142px;
+    height: 82px;
+  }
+}
+
+.partners__item--caterpillar img {
+  width: 234px;
+  height: 64px;
+
+  @include viewport--md {
+    width: 196px;
+    height: 30px;
+  }
+
+  @include viewport--sm {
+    width: 247px;
+    height: 38px;
+  }
+}
